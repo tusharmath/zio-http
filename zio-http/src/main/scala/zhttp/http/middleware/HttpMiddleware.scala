@@ -1,13 +1,13 @@
 package zhttp.http.middleware
 
-import java.io.IOException
-
 import zhttp.http._
 import zhttp.http.middleware.HttpMiddleware.RequestP
 import zio.clock.Clock
 import zio.console.Console
 import zio.duration.Duration
 import zio.{UIO, ZIO, clock, console}
+
+import java.io.IOException
 
 /**
  * Middlewares for HttpApp.
